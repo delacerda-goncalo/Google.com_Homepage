@@ -1,0 +1,142 @@
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+}
+.belowcenter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  height: 34px;
+  font: 16px arial, sans-serif;
+}
+
+
+
+#toLeft > * {
+  float: right;
+  margin-right: 20px;
+  margin-left: 17px;
+
+}
+
+.hoverunderlineGmail {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 13px;
+}
+
+.hoverunderlineImages {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 13px;
+}
+
+.signin {
+  font-size: 13px;
+  font-weight: bold;
+  outline: none;
+  width: max-content;
+  height: 36px;
+  display: inline-block;
+  border:1px solid #4285f4;
+  background: #4387fd;
+  color: white;
+  line-height: 30px;
+  text-align:center;
+  padding: 0 20px;
+  border-radius: 3px;
+}
+
+.down:hover, .signin:hover {
+  text-decoration: none;
+  color: white;
+}
+.down {
+  margin-top: 18px;
+}
+
+.moredown {
+  margin-top: 25px;
+}
+
+.moredown:hover {
+  color: grey;
+}
+
+#position {
+  position: absolute;
+  top: 60%;
+  left: 56%;
+}
+
+.belowform {
+
+    font-size: 13px;
+    font-weight: 700;
+    width: max-content;
+    height: 36px;
+    display: inline-block;
+    border:1px solid white;
+    background: #EFEFEF;
+    color: #6B6B6B;
+    line-height: 30px;
+    text-align:center;
+    padding: 0 20px;
+    border-radius: 3px;
+}
+
+.fp {
+  position: absolute;
+  top: 60%;
+  left: 44%;
+  transform: translate(-50%, -63%);
+}
+
+.sp {
+  float: left;
+  position: relative;
+  top: 70%;
+  left: 42%;
+}
+
+.fp:hover, .sp:hover {
+  text-decoration: none;
+  color: #000;
+  border: 1px solid #C6C6C6;
+  border-radius: 2px;
+  background-color: gradient(center top , #F8F8F8, #F1F1F1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+#footer {
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4
+}
+
+#footerleft > * {
+  margin-top: 10px;
+  margin-left: 27px;
+  border-left: 30px;
+  float: left;
+  color: #666;
+
+}
+
+#footerright > * {
+  margin-top: 10px;
+  margin-right: 27px;
+  border-right: 30px;
+  float: right;
+  color: #666;
+
+}
